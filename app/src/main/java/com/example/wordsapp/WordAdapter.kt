@@ -24,7 +24,7 @@ class WordAdapter(val letterId: String, val context: Context): RecyclerView.Adap
         val item = filteredWords[position].toString()
         holder.button.text = item
         holder.button.setOnClickListener {
-            val queryUrl = "${DetailActivity.SEARCH_PREFIX}$item"
+            val queryUrl = "${WordListFragment.SEARCH_PREFIX}$item"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(queryUrl))
             context.startActivity(intent)
         }

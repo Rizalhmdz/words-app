@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import kotlin.coroutines.coroutineContext
 
@@ -23,9 +24,8 @@ class LetterAdapter: RecyclerView.Adapter<LetterAdapter.ViewHolder>() {
         holder.button.text = item
         val context = holder.button.context
         holder.button.setOnClickListener {
-            val intent = Intent(context, DetailActivity::class.java)
-            intent.putExtra(DetailActivity.LETTER, item)
-            context.startActivity(intent)
+            val action = LetterListFragmentDirections.actionLetterListFragmentToWordListFragment(item)
+            holder.button.findNavController().navigate(action)
         }
     }
 

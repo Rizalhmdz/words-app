@@ -5,6 +5,11 @@
       <map>
         <entry key="..\:/Project/Android Studio/WordsApp/app/src/main/res/layout/item_list.xml" value="0.1" />
         <entry key="..\:/Project/Android Studio/WordsApp/app/src/main/res/menu/menu.xml" value="0.14666666666666667" />
+        <entry key="..\:/Project/Android Studio/words-app/app/src/main/res/layout/activity_detail.xml" value="0.14130434782608695" />
+        <entry key="..\:/Project/Android Studio/words-app/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Project/Android Studio/words-app/app/src/main/res/layout/fragment_letter_list.xml" value="0.14130434782608695" />
+        <entry key="..\:/Project/Android Studio/words-app/app/src/main/res/layout/fragment_word_list.xml" value="0.1859375" />
+        <entry key="..\:/Project/Android Studio/words-app/app/src/main/res/layout/item_list.xml" value="0.2" />
       </map>
     </option>
   </component>
